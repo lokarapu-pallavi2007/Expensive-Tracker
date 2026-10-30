@@ -1,0 +1,76 @@
+/* General Page Styling */
+body {
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Card Design */
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+/* Heading */
+h2 {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+/* Total Expense */
+#totalAmount {
+    color: #198754;
+    font-weight: bold;
+}
+
+/* Table */
+.table {
+    margin-top: 10px;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Buttons */
+.btn-primary {
+    border-radius: 8px;
+}
+
+.btn-danger {
+    border-radius: 8px;
+}
+
+/* Search Box */
+#search {
+    border-radius: 8px;
+}
+
+/* Inputs */
+.form-control,
+.form-select {
+    border-radius: 8px;
+}
+
+/* Hover Effect */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 24px;
+    }
+
+    #totalAmount {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
